@@ -1,3 +1,56 @@
 {
-  "status": { "isActive": true, "massage": "Your application massage here" }
+  "status": { "isActive": true, "massage": "Your application massage here" },
+  "ads": [
+    {
+      "packageName": "com.abc.or",
+      "adIds": [
+        {
+          "name": "banner",
+          "unitId": "ca-app-pub-3940256099942544~11111111111"
+        },
+        {
+          "name": "interstitial",
+          "unitId": "ca-app-pub-3940256099942544~22222222222"
+        },
+        {
+          "name": "native",
+          "unitId": "ca-app-pub-3940256099942544~33333333333"
+        }
+      ]
+    },
+    {
+      "packageName": "com.xyz.co",
+      "adIds": [
+        {
+          "name": "banner",
+          "unitId": "ca-app-pub-3940256099942544~44444444444"
+        },
+        {
+          "name": "interstitial",
+          "unitId": "ca-app-pub-3940256099942544~55555555555"
+        },
+        {
+          "name": "native",
+          "unitId": "ca-app-pub-3940256099942544~66666666666"
+        }
+      ]
+    },
+    {
+      "packageName": "com.pqr.io",
+      "adIds": [
+        {
+          "name": "banner",
+          "unitId": "ca-app-pub-3940256099942544~77777777777"
+        },
+        {
+          "name": "interstitial",
+          "unitId": "ca-app-pub-3940256099942544~88888888888"
+        },
+        {
+          "name": "native",
+          "unitId": "ca-app-pub-3940256099942544~99999999999"
+        }
+      ]
+    }
+  ]
 }
